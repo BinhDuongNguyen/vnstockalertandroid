@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.dongbat.stockalert.view.OverscrollableListView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:overScrollMode="always"
+        android:divider="@null"
+        android:id="@+id/tab1_listview">
+    </com.dongbat.stockalert.view.OverscrollableListView>
+
+</RelativeLayout>

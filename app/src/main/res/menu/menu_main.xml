@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.dongbat.stockalert.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="600"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_market"
+        android:orderInCategory="200"
+        android:title="@string/action_market"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_alert"
+        android:orderInCategory="400"
+        android:title="@string/action_alert"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_portfolio"
+        android:orderInCategory="300"
+        android:title="@string/action_portfolio"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_home"
+        android:orderInCategory="100"
+        android:title="@string/action_home"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_recommend"
+        android:orderInCategory="500"
+        android:title="@string/action_recommend"
+        app:showAsAction="never" />
+</menu>
